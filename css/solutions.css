@@ -1,0 +1,263 @@
+body{
+    overflow-x: hidden;
+}
+header{
+    height: 60vh;
+    position: relative;
+    width: 100vw;
+}
+header .content{
+    position: absolute;
+    height: 100%;
+    top: 50%;
+    transform: translateY(0%);
+    color: white;
+    padding: 0px 100px;
+}
+header h1{
+    font-family: 'Playfair Display', serif;
+}
+header .content a{
+    color: white;
+    text-decoration: none;
+}
+header .content a:hover{
+    color: white;
+    text-decoration: none;
+    opacity: 80%;
+}
+
+.second p{
+    color: white;
+}
+.second .top-img{
+    width: 100vw; height: 100px;
+}
+.second .circular{
+    position: relative;
+}
+.second i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    color: white;
+}
+.second p{
+    font-size: 14px;
+}
+.second h2{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    text-align: center;
+}
+.second h1{
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+}
+.second h3{
+    color:#115278;
+}
+.quote{
+    font-size: 24px;
+    text-align: center;
+    padding: 20px 0px;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 50%;
+    width: 60%;
+    transform: translateX(-50%);
+    height: 5px;
+    background: #115278;
+}
+.quote::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 50%;
+    width: 60%;
+    transform: translateX(-50%);
+    height: 5px;
+    background: #115278;
+}
+.first .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.first h1{
+    color: #115278;
+    font-family: 'Playfair Display', serif;
+}
+.first h3{
+    color: #115278;
+    font-family: 'Playfair Display', serif;
+}
+.child-1{
+    background: #f6eeea;
+    padding: 20px 25px;
+    border-radius: 40px;
+}
+.packages{
+    margin: 25px;
+}
+.child-1 i{
+    font-size: 80px;
+    color: #1ebeb6;
+
+}
+.child-1 b{
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+}
+.child-1 h4{
+    color: #1ebeb6;
+    font-family: 'Playfair Display', serif;
+}
+.child-1 ul{
+    list-style: none;  
+    padding-inline-start: 0px;
+}
+.child-1 ul li{
+    margin: 10px 0px;
+}
+.child-1 ul li::before{
+    content: "\f00c ";
+    color: #1ebeb6;
+    margin-right: 4px;
+    font-family: fontAwesome;
+}
+.col1 button{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    background: #115278;
+    padding: 14px 18px;
+    border-radius: 40px;
+    border: none;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.child-2{
+    background: #115278;
+    padding: 20px 25px;
+    border-radius: 40px;
+}
+.child-2 i{
+    font-size: 80px;
+    color: #1ebeb6;
+
+}
+.child-2 p{
+    color: white;
+}
+.child-2 b{
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+}
+.child-2 h4{
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+}
+.child-2 ul{
+    list-style: none;  
+    padding-inline-start: 0px;
+}
+.child-2 ul li{
+    margin: 10px 0px;
+    color: #fff;
+}
+.child-2 ul li::before{
+    content: "\f00c ";
+    color: #1ebeb6;
+    margin-right: 4px;
+    font-family: fontAwesome;
+}
+.col2 button{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    background: #1ebeb6;
+    padding: 14px 18px;
+    border-radius: 40px;
+    border: none;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.child-3{
+    background: #1ebeb6;
+    padding: 20px 25px;
+    border-radius: 40px;
+}
+.child-3 i{
+    font-size: 80px;
+    color: #115278;
+
+}
+.child-3 b{
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+}
+.child-3 h4{
+    color: #115278;
+    font-family: 'Playfair Display', serif;
+}
+.child-3 ul{
+    list-style: none;  
+    padding-inline-start: 0px;
+}
+.child-3 ul li{
+    margin: 10px 0px;
+}
+.child-3 ul li::before{
+    content: "\f00c ";
+    color: #115278;
+    margin-right: 4px;
+    font-family: fontAwesome;
+}
+.col3 button{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    background: #115278;
+    padding: 14px 18px;
+    border-radius: 40px;
+    border: none;
+    text-decoration: none;
+}
+
+@media(max-width:911px) {
+    header{
+        height: 60vh;
+        position: relative;
+        width: 100vw;
+    }
+    header .content{
+        position: absolute;
+        height: 100%;
+        top: 20%;
+        transform: translateY(0%);        
+        padding: 0px 20px;
+    }
+    .second .top-img{
+        width: 100vw; height: 30px;
+    }
+    .third h1{
+        font-size: 24px;
+    }
+    .third .col-12{
+        margin-top: 15px;
+    }
+}

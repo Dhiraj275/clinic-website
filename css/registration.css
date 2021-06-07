@@ -1,0 +1,120 @@
+header{
+    height: 20vh;
+    position: relative;
+    width: 100vw;
+}
+body{
+    overflow-x: hidden;
+}
+.title{
+    color: #115278;
+    font-family: 'Playfair Display', serif;
+    padding: 16px 10px;
+    position: relative;
+}
+.title::after{
+    position: absolute;
+    content: url("../images/underline.png");
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+.login-container .carousel-item{
+    position: relative;
+    height: 80vh;
+    background: url("../images/left-div-background.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.login-container .col-lg-6{
+    padding: 0;
+}
+.login-container label{
+    font-size: 16px;
+}
+.login-container .carousel-item .img-main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.login-container{
+    border: 1px solid #c2c2c2;
+    box-shadow: 0px 0px 6px #c2c2c2;
+    
+}
+.login-container .blue-line{
+    width: 20%;
+    height: 2px;
+    background-color: #1da1f2;
+    margin: 3px 0px 16px 0;
+}
+.login-container h3{
+    color: #1da1f2;
+    font-family: 'Playfair Display', serif;
+}
+.login-container p{
+    margin: 0;
+}
+.login-container input[type="number"],input[type="text"], input[type="email"], input[type="date"]{
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    padding: 8px 4px;
+    margin: 0px 0px 10px;
+    outline: none;
+}
+input[type="radio"]{
+    padding: 8px 4px;
+    margin: 20px 0px 20px;
+}
+.login-container input[type="submit"]{
+    color: white;
+    background: #1da1f2;
+    width: 100%;
+    padding: 10px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    margin: 22px 0px;
+
+}
+.login-container .proceed{
+    bottom: 20px;
+    left: 50%;
+    font-size: 16px;
+}
+@media(max-width:911px) {
+    header{
+        height: 8vh;
+    }
+    .login-container .carousel{
+        display: none;
+    }
+     h1.title{
+        font-size: 24px;
+    }
+    .login-container h3{
+        font-size: 18px;
+    }
+    .login-container p{
+        font-size: 12px;
+    }
+    
+}
+
+	
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    
+    /* Firefox */
+    input[type=number] {
+      -moz-appearance: textfield;
+    }

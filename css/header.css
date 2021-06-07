@@ -1,0 +1,175 @@
+.top-nav{
+    padding-top: 20px;
+    text-align: right;
+    font-size: 14px;
+    color: #fff;
+}
+.top-nav i{
+    color: #115278;
+}
+.top-nav span{
+    opacity: 60%;
+}
+.bottom-nav{
+    display: none;
+}
+.nav-bar{
+    position: absolute;
+    width: 100%;
+    padding: 0px 100px;
+    left: 0;
+    z-index: 4;
+    transition: 0.4;
+}
+.sticky{
+    position: fixed;
+    background-color: rgb(39, 39, 39);
+    height: 50px;
+    width: 100vw;
+    padding: 0px 100px;
+    left: 0;
+    top: 0;
+}
+.nav-bar .logo{
+    color: #fff;
+    line-height: 50px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    float: left;
+}
+ .nav-bar nav{
+    float: right;
+}
+
+.nav-bar nav ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav-bar nav ul li{
+    list-style: none;
+    position: relative;
+}
+.nav-bar nav ul li ul{
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    padding: 0;
+    background: white;
+    display: none;
+}
+.nav-bar nav ul li ul li{
+    display: block;
+    width: 200px;
+}
+.nav-bar nav ul li ul.user{
+    transform: translateX(-90%);
+}
+.nav-bar nav ul li.sub-menu a::after{
+    position: absolute;
+    content: "\f0d7";
+    font-family: fontAwesome;
+    color: white;
+    list-style: 50px;
+    margin: 0px 4px;
+}
+.nav-bar ul li.active ul{
+    display: block;
+}
+.nav-bar nav ul li ul li a{
+    color: rgba(0, 0, 0, 0.692)!important;
+}
+
+.nav-bar nav ul li a{
+    color: white;
+    padding: 0px 20px;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+.nav-bar nav ul li i{
+    color: white;
+    padding: 0px 14x;
+    margin: 0px 10px ;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.nav-bar nav ul li a.active{
+    background: #fff;
+    color: rgba(0, 0, 0, 0.8);
+}
+.nav-bar .toggle-menu{
+    color: white;
+    font-size: 24px;
+    float: right;
+    line-height: 50px;
+    cursor: pointer;
+    display: none;
+} 
+@media(max-width:991px){
+
+.top-nav{
+    display: none;
+}
+.bottom-nav{
+    display: block;
+    color: white;
+}
+.bottom-nav i.fa-clock-o{
+    font-size: 30px;
+    color: #115278;
+}
+.bottom-nav .fa-map-marker{
+    font-size: 30px;
+    color: #115278;
+}
+.bottom-nav span{
+    color: rgba(255, 255, 255, 0.63);
+}
+.nav-bar{
+    padding: 0px 20px;
+}
+.nav-bar .toggle-menu{
+    display: block;
+}
+.nav-bar nav{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top:50px;
+    transition: 0.4s;
+    left: -100vw;
+    background-color: rgb(31, 31, 31);
+    z-index: 4;
+}
+.nav-bar .active{
+    left: 0vw;
+}
+.nav-bar nav ul{
+    display: block;
+    text-align: center;
+    padding-left: 0;
+}
+.nav-bar nav ul li{
+    border-bottom: 0.3px solid rgba(255, 255, 255, .2);
+}
+.nav-bar ul li.active ul{
+    position: relative;
+    display: block;
+}
+.nav-bar nav ul li ul.user{
+    transform: translateX(0%);
+}
+.nav-bar nav ul li ul li{
+    z-index: 5;
+    width: 100vw;
+}
+}

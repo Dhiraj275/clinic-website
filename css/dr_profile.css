@@ -1,0 +1,187 @@
+header{
+    height: 100vh;
+    position: relative;
+    width: 100vw;
+}
+body{
+    overflow-x: hidden;
+}
+header .dr_image{
+    position: absolute;
+    height: 100%;
+    width: 40%;
+}
+header .bottom-cover{
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: 100%;
+}
+header .content{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translateY(-45%);
+    padding: 0px 30px;
+    color: #fff;
+}
+header .content h4{
+    color: white;
+    font-family: 'Playfair Display', serif;
+
+}
+header .content h3{
+    font-family: 'Playfair Display', serif;
+    color: #115278;
+}
+header .content h1{
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+}
+header .header-icons{
+    float: right;
+    margin: 0px 20px;
+}
+header .header-icons i{
+    padding: 16px;
+}
+.first{
+    margin: 40px;
+}
+.first .third i{
+    font-size: 80px;
+    color: #1ebeb6;
+}
+.first .third h6{
+    color: #1ebeb6;
+    font-family: 'Playfair Display', serif;
+   }
+.first .third h1{
+    color: #1ebeb6;
+    font-family: 'Playfair Display', serif;
+}
+.first .working-hours h3{
+    color: #1ebeb6;
+    font-family: 'Playfair Display', serif;
+}
+.first .working-hours p{
+    font-size: 18px;
+}
+.first .working-hours button{
+    color: #fff;
+    background: #115278;
+    border: none;
+    border-radius: 16px;
+    outline: none;
+    padding: 4px 8px;
+    margin: 4px 4px;
+}
+.first .first-col{
+    border: 6px solid #f6eeea;
+    border-radius: 10px;
+    padding: 40px 16px;
+}
+.first .about-dr{
+    font-size: 22px;
+    
+}
+.first .col-6{
+    padding:0px 16px;
+}
+.second .top-img{
+    width: 100vw; height: 100px;
+}
+.second{
+    color: #fff;
+    
+}
+.second .child{
+    padding: 100px 0px;
+}
+.second h1{
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+.second h3{
+    color: #115278;
+    font-family: 'Playfair Display', serif;
+}
+.second ul{
+    display: flex;
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+.second li{
+    margin: 0px 4px;
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.second li:hover{
+    border-radius: 4px;
+    box-shadow: 0 0 6px #00000063;
+}
+.third i{
+    color: #1ebeb6;
+    font-size: 80px;
+}
+.third h1{
+    color: #115278;
+    font-family: 'Playfair Display', serif;
+}
+.third h3{
+    font-family: 'Playfair Display', serif;
+}
+@media(max-width:911px) {
+    header {
+        height: 150vh;
+    }
+    header .dr_image{
+        height: 50%;
+        width: 100%;
+    }
+    header .content{
+        top: 72%;
+        left: auto;
+        padding: 0px 30px;
+    }
+    
+    header .header-icons{
+        float: right;
+    }
+    header .header-icons i{
+        padding: 16px;
+    }
+    .first table i{
+        display: none;
+    }
+    .first .about-dr{
+        margin: 6px 0px;
+        font-size: 14px;
+        
+    }
+    .first .col-lg-6{
+        font-size: 13px;
+    }
+    .second ul{
+        display: block;
+    
+    }
+    .second p{
+        font-size: 13px;
+    }
+    .second li{
+        font-size: 14px;
+    }
+    .second .top-img {
+        width: 100vw;
+        height: 30px;
+    }
+    .third h1{
+        font-size: 28px;
+    }  
+    .third p{
+        font-size: 14px;
+    }  
+}

@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 180vh;
+    position: relative;
+    width: 100vw;
+}
+header .content{
+    position: absolute;
+    height: 100%;
+    top: 50%;
+    transform: translateY(-20%);
+    color: white;
+    padding: 0px 100px;
+}
+.bottom-cover{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+
+header .content h3{
+    color: #115278;
+    font-family: 'Playfair Display', serif;
+
+}
+header .content h1{
+    font-family: 'Playfair Display', serif;
+}
+header .image{
+    background: url("../images/portfolio_06.jpg");
+    background-size: cover;
+    background-position: center;
+}
+header .team-no{
+    font-family: 'Playfair Display', serif;
+}
+header .team-no h1{
+    color: #115278;
+}
+.doctor-card h6{
+    margin: 8px 0px;
+    font-size: 16px;
+}
+.doctor-card{
+    transform: translateY(-30%);
+}
+.doctor-card b{
+    font-family: 'Playfair Display', serif;
+    color: #1ebeb6;
+    font-size: 22px;
+    position: relative;
+    padding: 8px 0px;
+}
+.doctor-card b::before{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 4px;
+    background: #1ebeb6;
+    content: "";
+}
+.doctor-card p{
+    margin: 10px 0px;
+}
+.doctor-card button{
+    padding: 10px 18px;
+    background: #115278;
+    color: white;
+    border: none;
+    outline: none!important;
+    border-radius: 28px;
+}
+.second{
+    width: 100vw;
+    margin-top: 30px;
+    background: #1ebeb6;
+}
+.second .container{
+    padding: 0px 20px;
+}
+.second .top-img{
+    width: 100vw;
+}
+.second .container{
+    transform: translateY(-80px);
+}
+.second .side-text{
+    padding: 0px 20px;
+    color: white;
+}
+.second .side-text h1{
+    color: #115278;
+    font-family: 'Playfair Display', serif;
+
+}
+.second .tooth-brush{
+    transform: translate(-30px, -80);
+}
+.second .service-card{
+    color: white;
+}
+.second .service-card h3{
+    font-family: 'Playfair Display', serif;
+}
+.second .side-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.third h1{
+    text-align: center;
+    color: #1ebeb6;
+    font-family: 'Playfair Display', serif;
+
+}
+.third p{
+    text-align: center;
+}
+.third b{
+    color: #1ebeb6;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+.third i{
+    color: #115278;
+}
+.fourth i{
+    font-size: 80px;
+    color: #1ebeb6;
+}
+.fourth h6{
+    color: #1ebeb6;
+    font-family: 'Playfair Display', serif;
+   }
+.fourth p{
+   color: black;
+   opacity: 60%;
+}
+.fourth h1{
+   color: #1ebeb6;
+   font-family: 'Playfair Display', serif;
+}
+footer{
+    width: 100vw;
+}
+@media(max-width:991px) {
+    header{
+        height: 200vh;
+    }
+    header .content{
+        padding: 15px;
+        top: 10%;
+        transform: translateY(0%);
+    }
+    .doctor-card .col-12{
+        padding: 20px 20px;
+    }
+    .second .tooth-brush{
+        transform: translate(0px, 0px);
+    }
+    .second input{
+        width: 100%;
+    }
+    .doctor-card{
+        transform: translateY(-5%);
+    }
+    .third .col-12{
+        padding: 15px 16px;
+    }
+    .third h1{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .third p{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,4 @@
+mrp-price=x
+mrp/100=y(1%)
+x/y
+80

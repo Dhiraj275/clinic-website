@@ -1,0 +1,86 @@
+body{
+    overflow-x: hidden;
+}
+header{
+    height: 60vh;
+    position: relative;
+    width: 100vw;
+}
+header .content{
+    position: absolute;
+    height: 100%;
+    top: 50%;
+    transform: translateY(0%);
+    color: white;
+    padding: 0px 100px;
+}
+header h1{
+    font-family: 'Playfair Display', serif;
+}
+header .content a{
+    color: white;
+    text-decoration: none;
+}
+header .content a:hover{
+    color: white;
+    text-decoration: none;
+    opacity: 80%;
+}
+
+.left i{
+    font-size: 80px;
+    color: #1ebeb6;
+}
+.left h6{
+    color: #1ebeb6;
+    font-family: 'Playfair Display', serif;
+   }
+.left h1{
+    color: #1ebeb6;
+    font-family: 'Playfair Display', serif;
+}
+.second{
+    border: 4px solid #f6eeea;
+    border-radius: 20px;
+    padding: 20px 34px;
+}
+.second .row i{
+    color: #1ebeb6;
+    font-size: 80px;
+}
+.second .row h1{
+    color: #115278;
+    font-family: 'Playfair Display', serif;
+}
+.second .row h3{
+    font-family: 'Playfair Display', serif;
+}
+.second h3{
+    font-family: 'Playfair Display', serif;
+    color: #1ebeb6;
+}
+.second .submit{
+    color: white;
+    background: #1ebeb6;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 12px 20px;
+    border: none;
+    outline: none;
+}
+
+@media(max-width:911px) {
+    header{
+        height: 60vh;
+        position: relative;
+        width: 100vw;
+    }
+    header .content{
+        position: absolute;
+        height: 100%;
+        top: 20%;
+        transform: translateY(0%);        
+        padding: 0px 20px;
+    }
+    
+}

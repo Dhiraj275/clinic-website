@@ -1,0 +1,144 @@
+body{
+    overflow-x: hidden;
+}
+header{
+    height: 60vh;
+    position: relative;
+    width: 100vw;
+}
+header .content{
+    position: absolute;
+    height: 100%;
+    top: 50%;
+    transform: translateY(0%);
+    color: white;
+    padding: 0px 100px;
+}
+header h1{
+    font-family: 'Playfair Display', serif;
+}
+header .content a{
+    color: white;
+    text-decoration: none;
+}
+header .content a:hover{
+    color: white;
+    text-decoration: none;
+    opacity: 80%;
+}
+.first .testimonials h1{
+    color: #1ebeb6;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.first .testimonials h3{
+    color: #115278;
+    margin: 10px 0px;
+    font-family: 'Playfair Display', serif;
+}
+
+.second p{
+    color: white;
+}
+.second .top-img{
+    width: 100vw; height: 100px;
+}
+.second .circular{
+    position: relative;
+}
+.second i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    color: white;
+}
+.second p{
+    font-size: 14px;
+}
+.second h2{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    text-align: center;
+}
+.second h1{
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+}
+.second h3{
+    color:#115278;
+}
+.quote{
+    font-size: 24px;
+    text-align: center;
+    padding: 20px 0px;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 50%;
+    width: 60%;
+    transform: translateX(-50%);
+    height: 5px;
+    background: #115278;
+}
+.quote::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 50%;
+    width: 60%;
+    transform: translateX(-50%);
+    height: 5px;
+    background: #115278;
+}
+.third h1{
+    text-align: center;
+    color: #1ebeb6;
+    font-family: 'Playfair Display', serif;
+
+}
+.third p{
+    text-align: center;
+}
+.third b{
+    color: #1ebeb6;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+.third i{
+    color: #115278;
+}
+@media(max-width:911px) {
+    header{
+        height: 60vh;
+        position: relative;
+        width: 100vw;
+    }
+    header .content{
+        position: absolute;
+        height: 100%;
+        top: 20%;
+        transform: translateY(0%);        
+        padding: 0px 20px;
+    }
+    .second .top-img{
+        width: 100vw; height: 30px;
+    }
+    .third h1{
+        font-size: 24px;
+    }
+    .third .col-12{
+        margin-top: 15px;
+    }
+}

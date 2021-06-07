@@ -1,0 +1,95 @@
+header{
+    height: 20vh;
+    position: relative;
+    width: 100vw;
+}
+body{
+    overflow-x: hidden;
+}
+.map{
+    position: relative;
+    width: 100vw; 
+    margin-top: 50px; 
+    height:140vh;
+}
+.map iframe{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.info{
+    position: absolute;
+    width: 30%;
+    height: 98%;
+    background: linear-gradient(115deg,#1ebeb6,#115278) !important;
+    right: 5%;
+    top: 10px;
+}
+.info .child{
+    position: relative;
+    padding:10px 26px;
+}
+.info .child img{
+    width: 100%;
+}
+.info .child h3{
+    margin: 20px 0;
+    color: #115278;
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+}
+.info .child h1{
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.info .child p{
+    color: #fff;
+    font-size: 16px;
+}
+.third i{
+    font-size: 80px;
+    color: #fff;
+}
+.third h6{
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+   }
+.third h1{
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+}
+.first h3{
+    color: #1ebeb6;
+    font-family: 'Playfair Display', serif;
+}
+.first p{
+    font-size: 14px;
+}
+
+@media(max-width:911px) {
+    header{
+        height: 8vh;
+    }
+    .map{
+        position: unset;
+        height: auto;
+
+    }
+    .map iframe{
+        position: unset;
+        height: 100vh;
+    }
+    .map .info{
+        position: unset;
+        width: 100vw;
+    }
+    .map .info .child{
+        padding:  0 0;
+    }
+    .map .info .text{
+        margin: 10px 18px;
+    }
+}

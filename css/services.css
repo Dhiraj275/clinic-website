@@ -1,0 +1,237 @@
+header{
+    height: 120vh;
+    position: relative;
+    width: 100vw;
+}
+body{
+    overflow-x: hidden;
+}
+header .dr_image{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background: url("../images/bgn-single-service.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+header .bottom-cover{
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: 100%;
+}
+header .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-45%);
+    padding: 0px 30px;
+    color: #fff;
+}
+header .content h4{
+    color: white;
+    font-family: 'Playfair Display', serif;
+
+}
+header .content h3{
+    font-family: 'Playfair Display', serif;
+    color: #115278;
+}
+header .content h1{
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+}
+header .header-icons{
+    float: right;
+    margin: 0px 20px;
+}
+header .header-icons i{
+    padding: 16px;
+}
+header .bar1{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    opacity: 80%;
+}
+header .bar1::before{
+    content: "";
+    position: absolute;
+    background: #115278;
+    left: 0;
+    top: 0;
+    width: 80%;
+    border-radius: 8px;
+    height: 100%;
+}
+header .bar2{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    opacity: 80%;
+}
+header .bar2::before{
+    content: "";
+    position: absolute;
+    background: #115278;
+    left: 0;
+    top: 0;
+    width: 60%;
+    border-radius: 8px;
+    height: 100%;
+}header .bar3{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    opacity: 80%;
+}
+header .bar3::before{
+    content: "";
+    position: absolute;
+    background: #115278;
+    left: 0;
+    top: 0;
+    width: 90%;
+    border-radius: 8px;
+    height: 100%;
+}
+header .row .col-lg-6  p{
+    font-size: 18px;
+}
+.left{
+    margin: 0px 60px;
+}
+.left h1{
+    font-family: 'Playfair Display', serif;
+    color: #1ebeb6;
+}
+.first{
+    background: #f6eeea;
+    border-radius: 20px;
+    padding: 15px 40px;
+    
+}
+.first h3{
+    padding: 6px 0px;
+    position: relative;
+    font-family: 'Playfair Display', serif;
+}
+.first h3::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30%;
+    height: 4px;
+    background: #1ebeb6;
+}
+.first ul{
+    margin: 25px 0px;
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+.first ul li{
+    padding: 10px 0px;
+    border-bottom: 0.2px solid #00000041;
+}
+.second{
+    border: 4px solid #f6eeea;
+    border-radius: 20px;
+    padding: 20px 34px;
+    margin: 20px 0px;
+}
+.second .row i{
+    color: #1ebeb6;
+    font-size: 80px;
+}
+.second .row h1{
+    color: #115278;
+    font-family: 'Playfair Display', serif;
+}
+.second .row h3{
+    font-family: 'Playfair Display', serif;
+}
+.second h3{
+    font-family: 'Playfair Display', serif;
+    color: #1ebeb6;
+}
+.second .submit{
+    color: white;
+    background: #1ebeb6;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 12px 20px;
+    border: none;
+    outline: none;
+}
+.service-card{
+    text-align: center;
+    font-family:  'Playfair Display', serif;
+}
+.service-card h4{
+    color: #115278;
+    font-size: 30px;
+}
+.service-card p{
+    font-size: 16px;
+}
+.services-btn{
+    background: #1ebeb6;
+    color:white;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: 0.4s;
+    padding: 15px 20px 15px 20px;
+    margin: 30px;
+    
+}
+.services-btn:hover{
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width:911px){
+    header{
+        height: 120vh;
+        position: relative;
+        width: 100vw;
+    }
+    header p{
+        margin-top: 10px;
+    }
+    header .dr_image{
+        position: absolute;
+        height: 50%;
+        width: 100%;
+        background: url("../images/bgn-single-service.jpg");
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+    }
+    
+    header .content{
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        transform: translateY(-45%);
+        padding: 0px 30px;
+        color: #fff;
+    }
+    .left{
+        margin: 0px 20px;
+    }
+    .left p, li{
+        font-size: 14px;
+    }
+    .second .row i{
+        color: #1ebeb6;
+        font-size: 60px;
+    }
+}

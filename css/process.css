@@ -1,0 +1,165 @@
+body{
+    overflow-x: hidden;
+}
+header{
+    height: 60vh;
+    position: relative;
+    width: 100vw;
+}
+header .content{
+    position: absolute;
+    height: 100%;
+    top: 50%;
+    transform: translateY(0%);
+    color: white;
+    padding: 0px 100px;
+}
+header h1{
+    font-family: 'Playfair Display', serif;
+}
+header .content a{
+    color: white;
+    text-decoration: none;
+}
+header .content a:hover{
+    color: white;
+    text-decoration: none;
+    opacity: 80%;
+}
+.first-col{
+    margin: 25px;
+    padding: 25px;
+}
+.first-col .bar1{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    opacity: 80%;
+}
+.first-col .bar1::before{
+    content: "";
+    position: absolute;
+    background: #115278;
+    left: 0;
+    top: 0;
+    width: 80%;
+    border-radius: 8px;
+    height: 100%;
+}
+.first-col .bar2{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    opacity: 80%;
+}
+.first-col .bar2::before{
+    content: "";
+    position: absolute;
+    background: #115278;
+    left: 0;
+    top: 0;
+    width: 60%;
+    border-radius: 8px;
+    height: 100%;
+}.first-col .bar3{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    opacity: 80%;
+}
+.first-col .bar3::before{
+    content: "";
+    position: absolute;
+    background: #115278;
+    left: 0;
+    top: 0;
+    width: 90%;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.second-col{
+    margin: 0px 0px 0px 60px;
+    border-left: 4px solid #115278;
+}
+.second-col .mother{
+    transform: translateX(-40px);
+}
+.second-col i{
+    font-size: 34px;
+    padding: 8px;
+    color: white;
+    position: relative;
+    height: 60px;
+    width: 60px;
+    z-index: 3;
+}
+.second-col .icon{
+    background: #115278;
+    width: 50px;
+    height: 50px;
+    z-index: 5;
+    border-radius: 50%;
+}
+.second-col .step{
+    padding: 15px;
+    border: 8px solid #1ebeb6;
+    position: relative;
+}
+.second-col .step::before{
+    content: "\f0d9";
+    position: absolute;
+    left: -20px;
+    top: -10px;
+    font-family: fontAwesome;
+    z-index: 9;
+    font-size: 40px;
+
+    color: #1ebeb6;
+}
+.second-col h1{
+    font-family: 'Playfair Display', serif;
+}
+.second-col p{
+    font-size: 22px;
+}
+@media(max-width:911px) {
+    header{
+        height: 60vh;
+        position: relative;
+        width: 100vw;
+    }
+    header .content{
+        position: absolute;
+        height: 100%;
+        top: 20%;
+        transform: translateY(0%);        
+        padding: 0px 20px;
+    }
+    .second-col .icon{
+        display: none;
+    }
+    .second-col{
+        border-left: none;
+        margin: 10px;
+    }
+    .second-col .mother{
+        transform: translateX(0px);
+        padding: 14px;
+    }
+    .second-col .mother .step::before{
+        display: none;
+    }
+    .second-col .mother h1{
+        font-size: 22px;
+    }
+    .second-col .mother p{
+        font-size: 16px;
+    }
+}

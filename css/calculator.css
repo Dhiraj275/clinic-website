@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+}
+body{
+    overflow-x: hidden;
+}
+.nav-bar{
+  background: #1ebeb6;
+}
+.cost-calc-nav{
+    background: #1ebeb6;
+}
+.header{
+    position: relative;
+    background: #1ebeb6;
+}
+.left{
+    padding: 40px;
+    top: 60px;
+}
+.left i{
+    position: absolute;
+    font-size: 100px;
+    color: #115278;
+}
+.left h3{
+    color: #115278;
+    font-family: 'Playfair Display', serif;
+
+}
+.left h1, .left h4{
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+.left p{
+    color: white;
+}
+.right{
+    background: #f6eeea;
+    padding: 20px;
+    top: 60px;
+    width: 100%;
+}
+.right h3{
+    color: #1ebeb6;
+    font-family: 'Playfair Display', serif;
+}
+.right select, .range, form span{
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right input[type="range"]{
+    height: 45px;
+    width: 80%;
+}
+form  .range  span{
+    width: 35px;
+    height : 35px;
+    padding: 10px;
+    border-radius: 50%;
+    background: #115278;
+    color: #fff;
+    margin: 20px;
+}
+.right .total{
+    padding: 14px 0px;
+    text-align: right;
+    background: #1ebeb6;
+    border-radius: 40px;
+    color: white;
+    font-size: 24px;
+
+}
+.right .total span{
+    background: #168e88;
+    padding: 15px 30px;
+    border-radius: 40px;
+
+}
+.right .next{
+    padding: 14px 0px;
+    text-align: center;
+    background: #1ebeb6;
+    border-radius: 40px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.child-1{
+    background: #f6eeea;
+    padding: 20px 25px;
+    border-radius: 40px;
+}
+.packages{
+    margin: 25px;
+}
+.child-1 i{
+    font-size: 80px;
+    color: #1ebeb6;
+
+}
+.child-1 b{
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+}
+.child-1 h4{
+    color: #1ebeb6;
+    font-family: 'Playfair Display', serif;
+}
+.child-1 ul{
+    list-style: none;  
+    padding-inline-start: 0px;
+}
+.child-1 ul li{
+    margin: 10px 0px;
+}
+.child-1 ul li::before{
+    content: "\f00c ";
+    color: #1ebeb6;
+    margin-right: 4px;
+    font-family: fontAwesome;
+}
+.col1 button{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    background: #115278;
+    padding: 14px 18px;
+    border-radius: 40px;
+    border: none;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.child-2{
+    background: #115278;
+    padding: 20px 25px;
+    border-radius: 40px;
+}
+.child-2 i{
+    font-size: 80px;
+    color: #1ebeb6;
+
+}
+.child-2 p{
+    color: white;
+}
+.child-2 b{
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+}
+.child-2 h4{
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+}
+.child-2 ul{
+    list-style: none;  
+    padding-inline-start: 0px;
+}
+.child-2 ul li{
+    margin: 10px 0px;
+    color: #fff;
+}
+.child-2 ul li::before{
+    content: "\f00c ";
+    color: #1ebeb6;
+    margin-right: 4px;
+    font-family: fontAwesome;
+}
+.col2 button{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    background: #1ebeb6;
+    padding: 14px 18px;
+    border-radius: 40px;
+    border: none;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.child-3{
+    background: #1ebeb6;
+    padding: 20px 25px;
+    border-radius: 40px;
+}
+.child-3 i{
+    font-size: 80px;
+    color: #115278;
+
+}
+.child-3 b{
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+}
+.child-3 h4{
+    color: #115278;
+    font-family: 'Playfair Display', serif;
+}
+.child-3 ul{
+    list-style: none;  
+    padding-inline-start: 0px;
+}
+.child-3 ul li{
+    margin: 10px 0px;
+}
+.child-3 ul li::before{
+    content: "\f00c ";
+    color: #115278;
+    margin-right: 4px;
+    font-family: fontAwesome;
+}
+.col3 button{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    background: #115278;
+    padding: 14px 18px;
+    border-radius: 40px;
+    border: none;
+    text-decoration: none;
+}
+
+@media(max-width:991px){
+    .left i{
+        font-size: 72px;
+    }
+    .left h4{
+        font-size: 22px;
+    }
+    .left p{
+        font-size: 14px;
+    }
+}

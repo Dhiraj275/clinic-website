@@ -1,0 +1,86 @@
+
+
+
+footer{
+    background: #1ebeb6;
+}
+footer h6{
+    color: white;
+}
+footer span{
+    font-size: 14px;
+}
+footer table td{
+    padding: 0px 10px 4px 0px;
+    font-size: 14px;
+}
+footer p{
+    color: #fff;
+    font-size: 14px;
+}
+footer ul{
+    display: flex;
+    list-style-type: none;
+    padding-inline-start: 0px!important;
+    margin: 0px!important;
+}
+footer ul.footer-nav a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0px 8px 4px;
+}
+footer ul.link li{
+    margin: 0px 8px;
+}
+footer ul.link{
+    color: white;
+}
+@media(max-width:991px){
+
+/* footer */
+footer .contact h6{
+    font-size: 20px;
+}
+footer .contact span{
+    font-size: 18px;
+}
+footer .contact i{
+    font-size: 20px;
+}
+footer .about h6{
+    font-size: 20px;
+    margin: 10px 0px 5px;
+} 
+footer .awards h6{
+    font-size: 20px;
+    margin: 10px 0px 10px;
+}
+footer .awards img{
+    margin: 0px 0px 10px;
+}
+footer .awards  p{
+    font-size: 16px;
+}
+.working-hours h6{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+footer .last{
+    flex-direction: column;
+}
+footer ul.footer-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+footer ul.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+}
+
+    

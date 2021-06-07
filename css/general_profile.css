@@ -1,0 +1,129 @@
+header{
+    height: 100vh;
+    position: relative;
+    width: 100vw;
+}
+header .content{
+    position: absolute;
+    height: 100%;
+    top: 50%;
+    transform: translateY(-15%);
+    color: white;
+    padding: 0px 100px;
+}
+.bottom-cover{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+header .content h3{
+    color: #115278;
+    font-family: 'Playfair Display', serif;
+
+}
+header .content h1{
+    font-family: 'Playfair Display', serif;
+}
+.first h3{
+    color: #1ebeb6;
+    font-family: 'Playfair Display', serif;
+}
+.first p{
+    font-size: 14px;
+}
+.second p{
+    color: white;
+}
+.second .top-img{
+    width: 100vw; height: 100px;
+}
+.second .circular{
+    position: relative;
+}
+.second i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    color: white;
+}
+.second p{
+    font-size: 14px;
+}
+.second h2{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    text-align: center;
+}
+.second h1{
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+}
+.second h3{
+    color:#115278;
+}
+.quote{
+    font-size: 24px;
+    text-align: center;
+    padding: 20px 0px;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 50%;
+    width: 60%;
+    transform: translateX(-50%);
+    height: 5px;
+    background: #115278;
+}
+.quote::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 50%;
+    width: 60%;
+    transform: translateX(-50%);
+    height: 5px;
+    background: #115278;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.third i{
+    font-size: 80px;
+    color: #1ebeb6;
+}
+.third h6{
+    color: #1ebeb6;
+    font-family: 'Playfair Display', serif;
+   }
+.third h1{
+    color: #1ebeb6;
+    font-family: 'Playfair Display', serif;
+}
+@media(max-width:911px) {
+    header {
+        height: 150vh;
+    }
+    header .content{
+        transform: translateY(-35%);
+        padding: 20px;
+    }
+    .second .top-img{
+        width: 100%; height: 45px;
+    }
+}
